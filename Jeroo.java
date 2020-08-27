@@ -5,7 +5,67 @@
 public class Jeroo extends JerooBase {
     // Put your own methods here
     
-    
+  public void setupBowling(){
+  
+  hop();
+  turn(RIGHT);
+  diagonalone();
+  diagonal();
+  diagonal();
+  diagonal();
+  turn(RIGHT);
+  turn(RIGHT);
+  hopHop();
+  turn(RIGHT);
+  hopHop();
+  hopHop();
+  turn(RIGHT);
+  diagonal();
+  diagonal();
+  diagonal();
+  turn(LEFT);
+  hopHop();
+  diagonal();
+  diagonalthree();
+  hop();
+}
+
+
+
+
+public void diagonalone(){
+  
+  hopPlant();
+  hop();
+  turn(LEFT);
+}
+ 
+public void diagonal(){
+  hopPlant();
+  turn(RIGHT);
+  hop();
+  turn(LEFT);
+}
+
+public void diagonalthree(){
+  turn(RIGHT);
+  hop();
+  plant();
+  turn(RIGHT);
+  hop();
+  turn(RIGHT);
+  hopPlant();
+}
+
+public void hopPlant(){
+  hop();
+  plant();
+}
+
+public void hopHop(){
+  hop();
+  hop();
+}
     
     
     
